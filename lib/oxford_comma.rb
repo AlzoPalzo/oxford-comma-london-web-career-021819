@@ -5,7 +5,7 @@ def oxford_comma(array)
     array.join(" and ")
   else
     small_array == array[0..arrayl.length - 2]
-    small_array.join(", ")
+    output = small_array.join(", ") + " and #{array.last}"
 
   end
 end
